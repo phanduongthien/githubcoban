@@ -20,6 +20,7 @@ public abstract class TowerAbstract : SaiMonoBehaviour
         if (this.towerCtrl != null) return;
         this.towerCtrl = transform.parent.GetComponent<TowerCtrl>();
         Debug.Log(transform.name + "LoadTowerControl", gameObject);
+        Debug.Log(transform.name + "da load thanh cong", gameObject);
     }
 
 }
